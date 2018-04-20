@@ -1,0 +1,13 @@
+.App{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body{
+  margin: 0 20px;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
